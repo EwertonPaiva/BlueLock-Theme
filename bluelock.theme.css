@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'WildWords';
+    src: url('https://your-url-to-font/WildWords-Regular.ttf') format('truetype');
+  }
+  
+  body {
+    background: url('https://wallpapercave.com/wp/wp10090754.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  :root {
+    --main-color: #1E90FF;
+    --secondary-color: #000000;
+    --highlight-color: #FFD700;
+    --background-color: rgba(30, 30, 30, 0.85);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--background-color);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+  }
+  
+  .message-2qnXI6 {
+    background: var(--background-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .message-2qnXI6:hover {
+    background: var(--main-color);
+  }
+  
+  .username-1A8OIy {
+    color: var(--highlight-color) !important;
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .mention-1BDn8e {
+    background: var(--main-color) !important;
+    color: #ffffff !important;
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .guildsWrapper-5TJh6A {
+    background: var(--background-color) !important;
+  }
+  
+  .guild-1EfMGQ {
+    border: 2px solid var(--main-color);
+  }
+  
+  .guild-1EfMGQ:hover {
+    border: 2px solid var(--highlight-color);
+  }
+  
+  .containerDefault-YUSmu3 {
+    background: var(--background-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+  }
+  
+  .containerDefault-YUSmu3:hover {
+    background: var(--main-color);
+  }
+  
+  .titleWrapper-3aqLlg {
+    color: var(--highlight-color) !important;
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .button-1cRKG6 {
+    background: var(--main-color);
+    color: #ffffff;
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .button-1cRKG6:hover {
+    background: var(--highlight-color);
+    color: var(--secondary-color);
+  }
+  
+  .inputDefault-3FGxgL {
+    background: var(--background-color);
+    color: #ffffff;
+    border: 1px solid var(--main-color);
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .inputDefault-3FGxgL:focus {
+    border: 1px solid var(--highlight-color);
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+  
+  * {
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .blue-lock-logo {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Blue_Lock_logo.png/1920px-Blue_Lock_logo.png');
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+  }
+  
+  .profile-username {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--main-color);
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  .profile-bio {
+    color: var(--highlight-color);
+    font-style: italic;
+    font-family: 'WildWords', sans-serif;
+  }
+  
+  @media (max-width: 1366px) {
+    .message-2qnXI6 {
+      font-size: 0.9em;
+    }
+  
+    .username-1A8OIy {
+      font-size: 0.9em;
+    }
+  
+    .guild-1EfMGQ {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .button-1cRKG6 {
+      font-size: 0.9em;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .message-2qnXI6 {
+      font-size: 0.8em;
+      padding: 8px;
+    }
+  
+    .username-1A8OIy {
+      font-size: 0.8em;
+    }
+  
+    .guild-1EfMGQ {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .button-1cRKG6 {
+      font-size: 0.8em;
+      padding: 6px 10px;
+    }
+  }
+  
